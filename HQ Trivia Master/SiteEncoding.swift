@@ -53,10 +53,10 @@ struct SiteEncoding : Equatable, CustomStringConvertible, CustomDebugStringConve
     
     static let google : SiteEncoding = {
         //Your API key
-        let apiKey = "AIzaSyD8_CHjjufyxzrW570qkuxrl5W3LsH3EFc"
+        let apiKey = "AIzaSyAN_20FPglqKoIdmzds2vr1l4HWrgNPHvg"
         
         //Your Search Engine ID
-        let searchEngineId = "006677768737737570095:raoebjow3iy"
+        let searchEngineId = "010258674177608716812:nnvyc5td_es"
         
         let url = URL(string: "https://www.googleapis.com/customsearch/v1?key=\(apiKey)&cx=\(searchEngineId)")
         return SiteEncoding(name: "Google - Custom Search", url: url)
